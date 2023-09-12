@@ -10,7 +10,7 @@ BIGLIETTI TRENO
 
 
 <div class="container">
-  <div class="row">
+  <div class="row row-gap-3">
     @foreach ($trains as $train)
     <div class="col-12 col-sm-6 col-md-4 col-lg-3">
       <div class="card h-100">
